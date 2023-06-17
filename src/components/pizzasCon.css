@@ -1,0 +1,27 @@
+.mainCon{
+    display: flex;
+    justify-content: center;
+    padding: 150px 0;
+}
+
+.pizzasCon {
+    max-width: 1150px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px 20px;
+    margin: 0 20px;
+}
+
+
+@media (max-width:776px) {
+    .pizzasCon {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px)  {
+    .pizzasCon {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

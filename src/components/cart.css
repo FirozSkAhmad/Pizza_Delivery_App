@@ -1,0 +1,10 @@
+.mainConInCart {
+    padding: 350px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cartCon {
+    max-width: 1150px;
+    margin: 0 20px;
+}

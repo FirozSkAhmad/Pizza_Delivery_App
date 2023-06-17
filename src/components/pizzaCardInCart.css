@@ -1,0 +1,15 @@
+.PizzaCardConInCart {
+    display: grid;
+    flex-basis: 500px;
+    grid-template-columns: 50px 1fr;
+}
+
+.pizzaImgInCart {
+    width: 100px;
+    height: 100px;
+}
+
+.aboutConInCart{
+    display: flex;
+    flex-direction: column;
+}
